@@ -68,6 +68,9 @@ button {
 
 .menu {
   display: flex;
+}
+
+.menu-item {
   padding: 24px 0;
 }
 
@@ -186,11 +189,12 @@ body {
 }
 
 /*============ /Header========*/
+
 /*=========Hero=========*/
 .hero {
   background-color: var(--first-sec-background-color);
   padding-top: 188px;
-  padding-bottom: 292px;
+  padding-bottom: 188px;
 }
 .hero-title {
   font-weight: 700;
@@ -426,7 +430,7 @@ body {
   margin-bottom: 16px;
 }
 .footer-content {
-  display: block;
+  display: inline-block;
   max-width: 264px;
   margin-left: 156px;
 }
